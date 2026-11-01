@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f9;
+color: #333;
+margin: 0;
+line-height: 1.6;
+}
+
+header {
+background-color: #263c78;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+main {
+max-width: 850px;
+margin: 30px auto;
+padding: 20px;
+}
+
+section {
+background-color: white;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+color: #263c78;
+}
+
+label {
+display: block;
+margin-top: 15px;
+font-weight: bold;
+}
+
+input,
+textarea {
+width: 100%;
+padding: 12px;
+margin-top: 6px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 15px;
+}
+
+textarea {
+min-height: 120px;
+resize: vertical;
+}
+
+button {
+background-color: #263c78;
+color: white;
+border: none;
+padding: 12px 20px;
+margin-top: 15px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 15px;
+}
+
+button:hover {
+background-color: #405ba8;
+}
+
+button:disabled {
+background-color: #999;
+cursor: not-allowed;
+}
+
+#status {
+margin-top: 15px;
+font-weight: bold;
+}
+
+#status.success {
+color: #16803c;
+}
+
+#status.error {
+color: #c62828;
+}
+
+#notes-list {
+list-style: none;
+padding: 0;
+}
+
+.note-item {
+background-color: #f4f6f9;
+padding: 15px;
+margin-top: 15px;
+border-radius: 7px;
+border-left: 4px solid #263c78;
+}
+
+.note-item h3 {
+margin-top: 0;
+color: #263c78;
+}
+
+.delete-btn {
+background-color: #c62828;
+}
+
+.delete-btn:hover {
+background-color: #991b1b;
+}
+
+.empty-state {
+color: #777;
+font-style: italic;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+color: #666;
+}
